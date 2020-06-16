@@ -10,6 +10,9 @@ This code assigns broad categories (science, communication, professional, person
 2) Clean data - step-by-step procedure to remove duplicates ; change capitals to lowercase ; remove urls ; remove emojis ; remove numbers ; remove punctuations ; remove NULL
 
 3) Assign categories to Twitter description (RegEx based on keywords in English and French)
+
+Link to dictionnary : https://figshare.com/articles/2nd_Codebook_users_-_Climate_change_research/8236598
+
   - sci (Science and Faculty) -> keywords related to scientific activities, such as academic professions ("professor"), higher ed ("students")
   - comm (Communication) -> keywords related to communication activities, such as "journalist", "writer", "producer"
   - organ (Organizations, Groups, Institutions) -> keywords related to organizations, such as "university", "alliance", "media"
