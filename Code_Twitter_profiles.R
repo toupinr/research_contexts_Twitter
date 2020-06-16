@@ -28,8 +28,6 @@ head(users)
 ## =================
 
 #filter by ?
-#users <- users %>%
-#  filter(Year == 2016)
 
 #remove duplicates
 users <- users[!duplicated(users$Author_id_on_Source), ]
