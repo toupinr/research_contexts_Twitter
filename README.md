@@ -3,7 +3,7 @@ Analysis of Twitter profiles in scholarly communication
 
 Code works with R
 
-This code assigns broad categories (science, communication, professional, personal, political, organizations, bots and publishers) to Twitter profiles descriptions based on keywords as RegEx - see dictionnary. This method accounts for thr overlap of two or more categories in a description.
+This code assigns broad categories (science, communication, professional, personal, political, organizations, bots and publishers) to Twitter profiles descriptions based on keywords as RegEx - see dictionnary. This method accounts for the overlap of two or more categories in a description.
 
 1) Load users descriptions (CSV, XLSX, etc.) and filter according to the purpose of the analysis
 
@@ -26,8 +26,13 @@ Link to dictionnary : https://figshare.com/articles/2nd_Codebook_users_-_Climate
 
 Based on work by :
 Alperin, J. P., Gomez, C. J., & Haustein, S. (2019). Identifying diffusion patterns of research articles on Twitter: A case study of online engagement with open access articles. Public Understanding of Science, 28(1), 2-18. https://doi.org/10.1177/0963662518761733
+
 Côté, I. M., & Darling, E. S. (2018). Scientists on Twitter: Preaching to the choir or singing from the rooftops?. FACETS, 3, 682-694. https://doi.org/10.1139/facets-2018-0002
+
 Haustein, S. (2018). Scholarly Twitter Metrics. In W. Glänzel, H.F. Moed, U. Schmoch, & M. Thelwall (Eds.), Handbook of Quantitative Science and Technology Research, Springer. Retrieved from https://arxiv.org/abs/1806.02201v2
+
 Toupin, R. & Haustein, S. (2018). 2nd Codebook for users categorization – Climate change research. Figshare. https://doi.org/10.6084/m9.figshare.8236598
+
 Tsou, A., Bowman, T. D., Ghazinejad, A., & Sugimoto, C. R. (2015). Who tweets about science? In Proceedings of the 2015 International Society for Scientometrics and Informetrics (pp. 95–100). Istanbul, Turkey. 
+
 Vainio, J. & Holmberg K. (2017). Highly tweeted science articles: who tweets them? An analysis of Twitter user profile descriptions. Scientometrics, 112(1), 345-366. https://doi.org/10.1007/s11192-017-2368-0 
