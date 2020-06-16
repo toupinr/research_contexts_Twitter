@@ -1,5 +1,5 @@
 ## =================
-# Rémi code for users profiles
+# Rémi Toupin code for users profiles
 # created: 25 Nov 2019
 # updated: 15 June 2020
 
