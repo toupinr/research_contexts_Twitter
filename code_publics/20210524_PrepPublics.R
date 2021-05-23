@@ -1,7 +1,7 @@
 ## =================
 # Rémi code for the creation of users profiles
 # created: 25 Nov 2019
-# updated: 14 Feb 2020
+# updated: 14 Feb 2021
 
 library(dplyr)
 library(reshape2)
