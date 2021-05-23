@@ -1,7 +1,7 @@
 ## =================
 # Rémi code for the creation of users profiles
 # created: 25 Nov 2019
-# updated: 14 Sept 2020
+# updated: 14 Feb 2020
 
 library(dplyr)
 library(reshape2)
@@ -13,24 +13,21 @@ library(quanteda)
 library(tidyr)
 library(tidytext)
 library(tidyverse, warn.conflicts = FALSE)
-library(UpSetR)
 library(scales)
-library(gt)
 library(knitr)
-library(ggupset)
 
 ## =================
 # load users info
 ## =================
-setwd("~/Documents/Thèse/Thèse Perso/Analyses/1-Publics of Climate Change Research/Analyses R/Total")
-users <- read_excel("DataAll_20190829v7.xlsx", sheet="User_totals", col_names = TRUE)
-userspapers <- read_excel("DataAll_20190829v7.xlsx", sheet="Users_papers", col_names = TRUE)
+setwd("")
+users <- read_excel("", sheet="User_totals", col_names = TRUE)
+userspapers <- read_excel("", sheet="Users_papers", col_names = TRUE)
 
 ## =================
 # load papers info
 ## =================
-papers <- read_excel("DataAll_20190829v7.xlsx", sheet = "Tweets_papers",  col_names = TRUE)
-authors <- read_excel("DataAll_20190829v7.xlsx", sheet = "Authors",  col_names = TRUE)
+papers <- read_excel("", sheet = "Tweets_papers",  col_names = TRUE)
+authors <- read_excel("", sheet = "Authors",  col_names = TRUE)
 authors <- rename(authors, "id_art" = "ID_Art")
 
 ##==================
