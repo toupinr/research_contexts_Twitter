@@ -1,4 +1,4 @@
-# twitterprofiles
+# twitterprofiles (need updates)
 Analysis of Twitter profiles in scholarly communication
 
 Code works with R
