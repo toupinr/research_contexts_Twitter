@@ -11,13 +11,13 @@ library(dplyr)
 # 1) Load the data files for users sharing papers (excel files)
 ## =================
 setwd("Data")
-users <- read_excel("DataAll_20190829v7.xlsx", sheet="User_totals", col_names = TRUE)
-userspapers <- read_excel("DataAll_20190829v7.xlsx", sheet="Users_papers", col_names = TRUE)
+users <- read_excel("(file_name)", sheet="User_totals", col_names = TRUE)
+userspapers <- read_excel("(file_name)", sheet="Users_papers", col_names = TRUE)
 
 ## =================
 # 2) Load the data files for papers (excel files)
 ## =================
-papers <- read_excel("DataAll_20190829v7.xlsx", sheet = "Tweets_papers",  col_names = TRUE)
+papers <- read_excel("(file_name)", sheet = "Tweets_papers",  col_names = TRUE)
 
 ##==================
 # 3) Prepare data tables for analysis
